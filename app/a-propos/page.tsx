@@ -112,7 +112,7 @@ export default function AProposPage() {
               </div>
               <div className="relative">
                 <img
-                  src="/placeholder-y7gsa.png"
+                  src="/high-security-lock-replacement.png"
                   alt="Jean-Pierre Martin, fondateur de SecuriServ"
                   className="rounded-lg shadow-lg w-full"
                 />
@@ -151,7 +151,7 @@ export default function AProposPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <img
-                  src="/placeholder-nflsr.png"
+                  src="/commercial-security-door-shop.png"
                   alt="Certifications et outils professionnels"
                   className="rounded-lg shadow-lg w-full"
                 />
