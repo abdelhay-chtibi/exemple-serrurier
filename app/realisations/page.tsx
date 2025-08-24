@@ -28,7 +28,7 @@ export default function RealisationsPage() {
       location: "Boulogne-Billancourt",
       date: "Novembre 2024",
       category: "Dépannage",
-      image: "/placeholder-1z7ys.png",
+      image: "/image-sururier.png",
       description: "Ouverture d'urgence d'une porte claquée sans aucun dégât sur la serrure.",
     },
     {
@@ -37,7 +37,7 @@ export default function RealisationsPage() {
       location: "Neuilly-sur-Seine",
       date: "Novembre 2024",
       category: "Installation",
-      image: "/placeholder-x7bja.png",
+      image: "/image-sururier2.png",
       description: "Pose d'une serrure connectée avec contrôle smartphone et codes d'accès.",
     },
     {

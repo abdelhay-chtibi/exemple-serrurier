@@ -16,12 +16,21 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
+metadataBase: new URL("https://securiserv.fr"),
   title: {
     default: "SecuriServ | Serrurerie Professionnelle 24h/24",
     template: "%s | SecuriServ",
   },
   description:
     "Serrurerie professionnelle à votre service 24h/24. Dépannage, installation, sécurisation. Intervention rapide et devis gratuit dans Paris et région parisienne.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
+      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   keywords: "serrurerie, serrurier, dépannage, urgence, sécurité, serrure, blindage, Paris, 24h/24",
   authors: [{ name: "SecuriServ" }],
   creator: "SecuriServ",
@@ -72,12 +81,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className={`${spaceGrotesk.variable} ${dmSans.variable}`}>
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="32x32" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <meta name="theme-color" content="#1E3A8A" />
-      </head>
       <body className="font-sans antialiased">{children}</body>
     </html>
-  )
+  );
 }
+
